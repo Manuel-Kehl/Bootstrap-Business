@@ -232,6 +232,7 @@
                     <div id="main" class="clearfix">
                     
                         <!-- #breadcrumb -->
+                        {% if breadcrumb_display %}
                         <div id="breadcrumb" class="clearfix">
                             <!-- #breadcrumb-inside -->
                             <div id="breadcrumb-inside" class="clearfix">
@@ -239,6 +240,7 @@
                             </div>
                             <!-- EOF: #breadcrumb-inside -->
                         </div>
+                        {% endif %}
                         <!-- EOF: #breadcrumb -->
 
                         {% if page.promoted %}
