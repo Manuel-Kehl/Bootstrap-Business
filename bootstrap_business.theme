@@ -70,6 +70,7 @@ function bootstrap_business_preprocess_page(&$vars) {
 		$vars['header_top_right_grid_class'] = 'col-md-12';		
 	}
 
+	$vars['breadcrumb_display'] = theme_get_setting('breadcrumb_display', 'bootstrap_business');
 }
 
 /**
